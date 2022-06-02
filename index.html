@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Game</title>
+  <link rel="stylesheet" href="https://www.layuicdn.com/layui/css/layui.css">
+</head>
+<script src="https://www.layuicdn.com/layui/layui.js"></script>
+<style>
+  body {
+    background-color: rgb(228, 220, 220);
+  }
+
+  .logo {
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    top: -2px;
+    margin-right: 60px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .inbox {
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(36, 35, 35);
+    border-radius: 30px;
+    box-shadow: rgba(128, 128, 128, 0.658) 10px 10px 10px 10px ;
+  }
+
+  .outbox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .frame{
+    border-radius: 30px;
+    }
+  .foot{
+    display: block;
+    position: absolute;
+      bottom: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+</style>
+
+<body>
+  <ul class="layui-nav layui-bg-pink nav" lay-bar="disabled">
+    <li class="logo">Welcome to Stutuer</li>
+    <li class="layui-nav-item ut layui-this"><a href="https://playcanvas.com/">Playcanvas</a></li>
+  </ul>
+  <div class="outbox">
+    <div class="inbox">
+      <!--下面的src为发布后游戏的连接 -->
+      <iframe class="frame" src="https://playcanv.as/p/y0Tyj4lj/" allowTransparency="true" scrolling="no"  marginwidth="0" frameBorder="0" allowtransparency="true" bordercolor="none"  style="width:1200px;height:600px;overflow:hidden;" frameborder="0">
+      </iframe>
+    </div>
+     <footer class="foot">Created by Songnan.</footer>
+  </div>
+ 
+</body>
+
+</html>
